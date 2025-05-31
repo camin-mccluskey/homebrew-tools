@@ -5,20 +5,20 @@
 class TdFile < Formula
   desc "A terminal based todo TUI backed by your own todo file. Clean collapsible tree UI, real-time file sync, and robust markdown file support."
   homepage "https://github.com/camin-mccluskey/td-file"
-  version "1.0.0"
+  version "1.1.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/camin-mccluskey/td-file/releases/download/v1.0.0/td-file_Darwin_x86_64.tar.gz"
-      sha256 "e2f568e0b09b615219c84ee84238e866a8792c221048f09888f8f04ebae241ad"
+      url "https://github.com/camin-mccluskey/td-file/releases/download/v1.1.0/td-file_Darwin_x86_64.tar.gz"
+      sha256 "05db0e70bb684d7a3452dd96daff20c04a57040cc521a947c5a2583bea66f4c3"
 
       def install
         bin.install "td-file"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/camin-mccluskey/td-file/releases/download/v1.0.0/td-file_Darwin_arm64.tar.gz"
-      sha256 "c0f9de9a8e11bde9879367e7466e63a662404234982f5197a6ff2099e8ea2489"
+      url "https://github.com/camin-mccluskey/td-file/releases/download/v1.1.0/td-file_Darwin_arm64.tar.gz"
+      sha256 "fd7ee8dc716d25013436624fa1fbbf132562db5a48b8f89fad051a18d46fc334"
 
       def install
         bin.install "td-file"
@@ -28,15 +28,15 @@ class TdFile < Formula
 
   on_linux do
     if Hardware::CPU.intel? and Hardware::CPU.is_64_bit?
-      url "https://github.com/camin-mccluskey/td-file/releases/download/v1.0.0/td-file_Linux_x86_64.tar.gz"
-      sha256 "cca5e94a2fdc2e9c805977c3bb391707ef1a10af2dd4f4f4dc9af53336723cce"
+      url "https://github.com/camin-mccluskey/td-file/releases/download/v1.1.0/td-file_Linux_x86_64.tar.gz"
+      sha256 "41005bc27de03fadc902944d6543dec39995afa465e3d9b4d4f5b2a979ad4621"
       def install
         bin.install "td-file"
       end
     end
     if Hardware::CPU.arm? and Hardware::CPU.is_64_bit?
-      url "https://github.com/camin-mccluskey/td-file/releases/download/v1.0.0/td-file_Linux_arm64.tar.gz"
-      sha256 "4cd071d36b822274067d077e5b0c4ef70078f790159771941fd561015fa44bb3"
+      url "https://github.com/camin-mccluskey/td-file/releases/download/v1.1.0/td-file_Linux_arm64.tar.gz"
+      sha256 "42a132e881803eeec4faae1183101dca5cde97aa5bd37eaf8633ead95e17a175"
       def install
         bin.install "td-file"
       end
