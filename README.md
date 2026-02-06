@@ -19,6 +19,7 @@ brew install <tool>
 ## Available Tools
 
 - td-file - Task management backed by your own local files
+- quick-ai - MacOS menubar assistant for instant AI answers (fast LLMs + websearch)
 
 ## One-liner Installation
 
