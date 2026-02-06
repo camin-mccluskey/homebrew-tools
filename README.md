@@ -1,30 +1,25 @@
 # Camin McCluskey's CLI Tools
 
-A collection of command-line tools for developers.
-
-## Installation
-
-First, add this tap to your Homebrew:
-
-```bash
-brew tap camin-mccluskey/tools
-```
-
-Then install any tool:
-
-```bash
-brew install <tool>
-```
+A collection of command-line and small apps (Casks) for developers.
 
 ## Available Tools
 
-- td-file - Task management backed by your own local files
-- quick-ai - MacOS menubar assistant for instant AI answers (fast LLMs + websearch)
+- [td-file](https://github.com/camin-mccluskey/td-file) - Task management backed by your own local files
 
-## One-liner Installation
+## Available Casks
 
-You can install individual tools without adding the tap:
+- [quick-ai](https://github.com/camin-mccluskey/Quick-AI) - MacOS menubar assistant for instant AI answers (fast LLMs + websearch)
+
+## Installation 
+
+### Tools
 
 ```bash
 brew install camin-mccluskey/tools/<tool>
+```
+
+### Casks
+
+```bash
+brew install --cask camin-mccluskey/tools/<cask>
 ```
